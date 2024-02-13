@@ -2,7 +2,7 @@
 
 This is the accompanying repository of the Accompanying repository for "Causal discovery under off-target interventions". It is available at (coming soon).
 
-To run, execute `./run.sh`. Plots will be saved under `data/figures`. We have included a copy of the produced `data/figures` sub-directory in here so you may look at the output without running the experiments yourself.
+To run, execute `./run.sh`. Plots will be saved under `data/figures`. We have included a copy of the produced `figures` sub-directory in here so you may look at the output without running the experiments yourself.
 
 ## Executive summary
 
@@ -117,47 +117,49 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 
 `GNP_TREE` graphs without `random`:
 <p float="middle">
-<img src="./data/figures/synthetic_no_random_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./data/figures/synthetic_no_random_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./data/figures/synthetic_no_random_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./data/figures/synthetic_no_random_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./data/figures/synthetic_no_random_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./data/figures/synthetic_no_random_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="./figures/synthetic_no_random_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 `bnlearn` graphs without `random`:
 <p float="middle">
-<img src="./data/figures/bnlearn_no_random_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./data/figures/bnlearn_no_random_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./data/figures/bnlearn_no_random_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./data/figures/bnlearn_no_random_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./data/figures/bnlearn_no_random_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./data/figures/bnlearn_no_random_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="./figures/bnlearn_no_random_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 #### With `Random`
 
 `GNP_TREE` graphs with `random`:
 <p float="middle">
-<img src="./data/figures/synthetic_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./data/figures/synthetic_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./data/figures/synthetic_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./data/figures/synthetic_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./data/figures/synthetic_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./data/figures/synthetic_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="./figures/synthetic_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 `bnlearn` graphs with `random`:
 <p float="middle">
-<img src="./data/figures/bnlearn_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./data/figures/bnlearn_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./data/figures/bnlearn_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./data/figures/bnlearn_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./data/figures/bnlearn_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./data/figures/bnlearn_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="./figures/bnlearn_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="./figures/bnlearn_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="./figures/bnlearn_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="./figures/bnlearn_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="./figures/bnlearn_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="./figures/bnlearn_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 ## References
+
+[This paper] Davin Choo, Kirankumar Shiragur, Caroline Uhler. Causal discovery under off-target interventions. International Conference on Artificial Intelligence and Statistics, 2024. Available at (Coming soon).
 
 [Scu10] Marco Scutari. Learning Bayesian networks with the bnlearn R package. Journal of Statistical Software, 2010. Available at https://arxiv.org/pdf/0908.3817.pdf
 
@@ -165,4 +167,4 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 
 [CSB22] Davin Choo, Kirankumar Shiragur, and Arnab Bhattacharyya. Verification and search algorithms for causal DAGs. Advances in Neural Information Processing Systems, 2022. Available at https://arxiv.org/pdf/2206.15374.pdf
 
-[CS23] Davin Choo, and Kirankumar Shiragur. Subset verification and search algorithms for causal DAGs. 2022. Available at https://arxiv.org/pdf/2301.03180.pdf.
+[CS23] Davin Choo and Kirankumar Shiragur. Subset verification and search algorithms for causal DAGs. International Conference on Artificial Intelligence and Statistics, 2023. Available at https://arxiv.org/pdf/2301.03180.pdf.
