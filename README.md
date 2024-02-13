@@ -1,2 +1,3 @@
-# causal-discovery-under-off-target-interventions
-Accompanying repository for "Causal discovery under off-target interventions"
+Execute ./run.sh
+
+Plots will be saved under "data/figures"

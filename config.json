@@ -1,0 +1,17 @@
+{
+    "dirnames": {
+        "nx": "nx_bnlearn",
+        "instances": "data/instances",
+        "results": "data/results",
+        "figures": "data/figures"
+    },
+    "algorithm_list": [
+        "VLP_opt",
+        "off_target",
+        "coloring",
+        "separator",
+        "one_shot",
+        "random"
+    ],
+    "multithread": false
+}

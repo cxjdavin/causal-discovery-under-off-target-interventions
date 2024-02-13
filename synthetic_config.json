@@ -1,0 +1,20 @@
+{
+    "generation_count": 10,
+    "generation_sizes": [10, 20, 30, 40, 50],
+    "generation_probs": [0.1],
+    "dirnames": {
+        "nx": "nx_synthetic",
+        "instances": "data/instances",
+        "results": "data/results",
+        "figures": "data/figures"
+    },
+    "algorithm_list": [
+        "VLP_opt",
+        "off_target",
+        "coloring",
+        "separator",
+        "one_shot",
+        "random"
+    ],
+    "multithread": false
+}
