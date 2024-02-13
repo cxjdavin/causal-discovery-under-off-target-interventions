@@ -1,6 +1,6 @@
 # Causal discovery under off-target interventions
 
-This is the accompanying repository of the Accompanying repository for "Adaptivity Complexity for Causal Graph Discovery". It is available at (coming soon).
+This is the accompanying repository of the Accompanying repository for "Causal discovery under off-target interventions". It is available at (coming soon).
 
 To run, execute `./run.sh`. Plots will be saved under `data/figures`. We have included a copy of the produced `data/figures` sub-directory in here so you may look at the output without running the experiments yourself.
 
