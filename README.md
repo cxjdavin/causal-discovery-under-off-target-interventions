@@ -113,9 +113,7 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 `One-shot` is in <span style="color:purple">purple</span>.
 `Random` is in <span style="color:brown">brown</span>.
 
-#### Without `Random`
-
-`GNP_TREE` graphs without `random`:
+#### `GNP_TREE` graphs without `random`
 <p float="middle">
 <img src="./figures/synthetic_no_random_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
 <img src="./figures/synthetic_no_random_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
@@ -125,7 +123,7 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 <img src="./figures/synthetic_no_random_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
-`bnlearn` graphs without `random`:
+#### `bnlearn` graphs without `random`
 <p float="middle">
 <img src="./figures/bnlearn_no_random_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
 <img src="./figures/bnlearn_no_random_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
@@ -135,9 +133,7 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 <img src="./figures/bnlearn_no_random_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
-#### With `Random`
-
-`GNP_TREE` graphs with `random`:
+#### `GNP_TREE` graphs with `random`
 <p float="middle">
 <img src="./figures/synthetic_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
 <img src="./figures/synthetic_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
@@ -147,7 +143,7 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 <img src="./figures/synthetic_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
-`bnlearn` graphs with `random`:
+#### `bnlearn` graphs with `random`
 <p float="middle">
 <img src="./figures/bnlearn_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
 <img src="./figures/bnlearn_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
