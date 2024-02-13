@@ -40,7 +40,7 @@ For given $n$ and $p$ parameters, the moral `GNP_TREE` graphs are generated in t
 - Combine their edgesets and orient the edges in an acyclic fashion: orient $u \to v$ whenever vertex $u$ has a smaller vertex numbering than $v$.
 - Add arcs to remove v-structures: for every v-structure $u \to v \gets w$ in the graph, we add the arc $u \to w$ whenever vertex $u$ has a smaller vertex numbering from $w$.
 
-We generated `GNP_TREE` graphs with $n \in \{10, 20, 30, 40, 50\}$ and $p = 0.1$.
+We generated `GNP_TREE` graphs with $n \in \\{10, 20, 30, 40, 50\\}$ and $p = 0.1$.
 For each $(n,p)$ setting, we generated 10 such graphs.
 
 ### Real-world graphs
@@ -53,7 +53,7 @@ Some graphs such as `pigs`, `cancer`, `survey`, `earthquake`, and `mildew` alrea
 
 In our experiments, we associated each vertex $v$ with unit cost and an action $A_v$ with four different possible types of interventional distributions (see below).
 The first two are atomic in nature (all actions return a single intervened vertex) while the third is slightly more complicated interventional distribution where multiple vertices may be intervened upon.
-Atomic interventional distributions enables a simple way to compute the probability that edge ${u,v}$ is cut by action $A_i$: it is simply $p^i_u + p^i_v$, where $p^i_v$ is the probability that $v$ is intervened upon when we perform action $A_i$.
+Atomic interventional distributions enables a simple way to compute the probability that edge $\\{u,v\\}$ is cut by action $A_i$: it is simply $p^i_u + p^i_v$, where $p^i_v$ is the probability that $v$ is intervened upon when we perform action $A_i$.
 
 The 3 classes of off-target interventions we explored are as follows:
 
@@ -65,7 +65,7 @@ When taking action $A_v$, $D_v$ samples a random vertex from a weighted probabil
 So, vertices closer to $v$ have higher chance of being intervened upon when we attempt to intervene on $v$.
 
 3. Fat hand with parameter $p$  
-When taking action $A_v$, $D_v$ will always intervene on $v$, but will additionally intervene on $v$'s neighbors, each with independent probability $p$. Note that the probability of cutting an edge $\{u,v\}$ now is no longer a simple sum of two independent probabilities, but it is still relatively easy to compute in closed-form.
+When taking action $A_v$, $D_v$ will always intervene on $v$, but will additionally intervene on $v$'s neighbors, each with independent probability $p$. Note that the probability of cutting an edge $\\{u,v\\}$ now is no longer a simple sum of two independent probabilities, but it is still relatively easy to compute in closed-form.
 
 In our experiments, we tested the following 6 settings:
 1. $r$-hop with $r = 1$
