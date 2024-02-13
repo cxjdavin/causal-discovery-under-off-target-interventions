@@ -115,42 +115,42 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 
 #### `GNP_TREE` graphs without `random`
 <p float="middle">
-<img src="./figures/synthetic_no_random_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./figures/synthetic_no_random_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./figures/synthetic_no_random_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./figures/synthetic_no_random_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./figures/synthetic_no_random_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./figures/synthetic_no_random_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_no_random_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 #### `bnlearn` graphs without `random`
 <p float="middle">
-<img src="./figures/bnlearn_no_random_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./figures/bnlearn_no_random_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./figures/bnlearn_no_random_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./figures/bnlearn_no_random_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./figures/bnlearn_no_random_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./figures/bnlearn_no_random_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_no_random_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 #### `GNP_TREE` graphs with `random`
 <p float="middle">
-<img src="./figures/synthetic_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./figures/synthetic_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./figures/synthetic_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./figures/synthetic_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./figures/synthetic_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./figures/synthetic_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/synthetic_10_0.1_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 #### `bnlearn` graphs with `random`
 <p float="middle">
-<img src="./figures/bnlearn_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
-<img src="./figures/bnlearn_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
-<img src="./figures/bnlearn_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
-<img src="./figures/bnlearn_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
-<img src="./figures/bnlearn_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
-<img src="./figures/bnlearn_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['r_hop', [1]]_r_hop.png" alt="1-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['r_hop', [2]]_r_hop.png" alt="2-hop" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['decaying', [0.5]]_decaying.png" alt="Decaying, $\alpha = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['decaying', [0.9]]_decaying.png" alt="Decaying, $\alpha = 0.9$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['fat_hand', [0.5]]_fat_hand.png" alt="Fat hand, $p = 0.5$" width="45%"/>
+<img src="https://github.com/cxjdavin/causal-discovery-under-off-target-interventions/blob/main/figures/bnlearn_10_['fat_hand', [0.9]]_fat_hand.png" alt="Fat hand, $p = 0.9$" width="45%"/>
 </p>
 
 ## References
