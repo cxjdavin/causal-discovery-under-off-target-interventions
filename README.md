@@ -1,6 +1,6 @@
 # Causal discovery under off-target interventions
 
-This is the accompanying repository of the Accompanying repository for "Causal discovery under off-target interventions". It is available at (coming soon).
+This is the accompanying repository of the Accompanying repository for "Causal discovery under off-target interventions". It is available at https://arxiv.org/abs/2402.08229.
 
 To run, execute `./run.sh`. Plots will be saved under `data/figures`. We have included a copy of the produced `figures` sub-directory in here so you may look at the output without running the experiments yourself.
 
@@ -155,7 +155,7 @@ Our off-target search `Off-Target` is in <span style="color:orange">orange</span
 
 ## References
 
-[This paper] Davin Choo, Kirankumar Shiragur, Caroline Uhler. Causal discovery under off-target interventions. International Conference on Artificial Intelligence and Statistics, 2024. Available at (Coming soon).
+[This paper] Davin Choo, Kirankumar Shiragur, Caroline Uhler. Causal discovery under off-target interventions. International Conference on Artificial Intelligence and Statistics, 2024. Available at https://arxiv.org/abs/2402.08229
 
 [Scu10] Marco Scutari. Learning Bayesian networks with the bnlearn R package. Journal of Statistical Software, 2010. Available at https://arxiv.org/pdf/0908.3817.pdf
 
