@@ -1,6 +1,6 @@
 # Causal discovery under off-target interventions
 
-This is the accompanying repository of the Accompanying repository for "Causal discovery under off-target interventions". It is available at https://arxiv.org/abs/2402.08229.
+This is the accompanying repository of the paper "Causal discovery under off-target interventions". It is available at https://arxiv.org/abs/2402.08229.
 
 To run, execute `./run.sh`. Plots will be saved under `data/figures`. We have included a copy of the produced `figures` sub-directory in here so you may look at the output without running the experiments yourself.
 
